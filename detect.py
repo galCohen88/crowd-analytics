@@ -5,10 +5,11 @@ import cv2
 import numpy as np
 
 
-
-image_name = 'cr.jpg'
-# brightness = 0.9
-brightness = 3
+access_key = ''
+secrete_key = ''
+brightness = 0.9
+camera = 0
+image_name = 'tmp.jpg'
 
 
 def change_brightness(img, alpha, beta):
@@ -16,7 +17,7 @@ def change_brightness(img, alpha, beta):
 
 
 def take_picture(img_name):
-    cam = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(camera)
     ret, frame = cam.read()
     frame = change_brightness(frame, brightness, 0)
 

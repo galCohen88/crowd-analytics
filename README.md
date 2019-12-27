@@ -1,7 +1,17 @@
 # Crowd Analytics
 
-## Installation
-pip3 install matplotlib
-brew install opencv3
-pip3 install boto
+![Alt text](example.jpg?raw=true)
 
+## Installation
+
+$ brew install opencv3
+$ pip install -r requirements.txt
+
+# Selecting the camera
+If you have more than one camera connected to your computer, you can change 'camera' var value from 0 (integrated cam) to any other
+ 
+## Running
+
+add to the code your aws access key / secrete and 
+
+$ python3 detect.py
