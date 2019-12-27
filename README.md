@@ -1,6 +1,6 @@
 # Crowd Analytics
 
-![Alt text](example.jpg?raw=true)
+![Alt text](example.png?raw=true)
 
 ## Installation
 
