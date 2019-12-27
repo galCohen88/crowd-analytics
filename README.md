@@ -5,8 +5,8 @@
 ## Installation
 
 ```
-$ brew install opencv3 <br />
-$ pip install -r requirements.txt <br />
+$ brew install opencv3
+$ pip install -r requirements.txt
 ```
 
 # Selecting the camera
