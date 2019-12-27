@@ -4,8 +4,8 @@
 
 ## Installation
 
-$ brew install opencv3
-$ pip install -r requirements.txt
+$ brew install opencv3 <br />
+$ pip install -r requirements.txt <br />
 
 # Selecting the camera
 If you have more than one camera connected to your computer, you can change 'camera' var value from 0 (integrated cam) to any other
